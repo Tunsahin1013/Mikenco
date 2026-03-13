@@ -1,0 +1,148 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 thg 3, 2026, 00:51:50
+    Author     : tunsa
+*/
+
+body{
+background:#111;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:black;
+}
+
+.logo{
+font-weight:bold;
+}
+
+.icons span{
+margin-left:20px;
+font-size:20px;
+}
+
+
+.container{
+width:80%;
+margin:auto;
+padding:30px;
+}
+
+
+.address{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.address button{
+margin-left:auto;
+padding:5px 15px;
+}
+
+
+.product-table{
+margin-top:20px;
+}
+
+.row{
+display:grid;
+grid-template-columns:200px 1fr 150px 100px 150px;
+align-items:center;
+padding:10px 0;
+}
+
+.row img{
+width:120px;
+}
+
+.header-row{
+font-weight:bold;
+}
+
+
+.voucher{
+display:flex;
+justify-content:space-between;
+padding:20px 0;
+}
+
+.note{
+margin:20px 0;
+}
+
+.note input{
+width:400px;
+padding:10px;
+background:#222;
+border:1px solid #555;
+color:white;
+}
+
+
+.shipping{
+display:flex;
+gap:30px;
+align-items:center;
+}
+
+
+.total{
+display:flex;
+justify-content:flex-end;
+gap:20px;
+font-size:20px;
+}
+
+
+.payment{
+margin-top:30px;
+}
+
+
+.bank{
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.bank img{
+width:50px;
+}
+
+
+.summary{
+background:#eee;
+color:black;
+padding:40px;
+margin-top:40px;
+}
+
+.summary div{
+display:flex;
+justify-content:space-between;
+margin:10px 0;
+}
+
+.final h2{
+color:#c47c5a;
+}
+
+
+.order-btn{
+margin-top:20px;
+background:#c47c5a;
+border:none;
+padding:15px 40px;
+font-size:18px;
+cursor:pointer;
+}

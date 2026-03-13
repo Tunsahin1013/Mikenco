@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 thg 3, 2026, 01:19:43
+    Author     : tunsa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background: linear-gradient(135deg,#222,#ff5e5e);
+color:white;
+}
+
+/* HEADER */
+
+.header{
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+background-color: white;
+color:black;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:black;
+}
+
+.logo{
+    font-weight: bold;
+    
+}
+
+.bx-menu{
+    width: 15px;
+    height: 15px;
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+text-align:center;
+}
+
+.hero-img{
+width:100%;
+height:500px;
+object-fit:cover;
+}
+
+.hero-text{
+position:absolute;
+top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.btn{
+background:white;
+border:none;
+padding:10px 20px;
+margin:10px;
+border-radius:20px;
+}
+
+.btn2{
+background:transparent;
+border:1px solid white;
+padding:10px 20px;
+border-radius:20px;
+color:white;
+}
+
+
+/* PRODUCT */
+
+.products{
+text-align:center;
+padding:60px;
+}
+
+.product-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.card img{
+width:250px;
+border-radius:30px;
+}
+
+
+/* CATEGORY */
+
+.category{
+text-align:center;
+padding:60px;
+}
+
+.category-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.category-card{
+background:white;
+color:black;
+padding:20px;
+width:200px;
+border-radius:30px;
+}
+
+.category-card img{
+width:100%;
+border-radius:20px;
+}
+
+.shop-btn{
+margin-top:30px;
+padding:10px 30px;
+border-radius:20px;
+border:none;
+}
+
+
+/* FOOTER */
+
+.footer{
+padding:60px;
+}
+
+.footer-grid{
+display:flex;
+justify-content:space-between;
+}
+
+.copyright{
+text-align:center;
+margin-top:40px;
+}
