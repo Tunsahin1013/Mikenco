@@ -13,10 +13,10 @@
 <!-- HEADER -->
 <header class="header">
 
-    <i class='bx-menu'></i>
+    <i class='bx bx-menu'></i>
     
 <div class="logo">
-Ngũ Hổ Phố
+Ngũ Phố
 </div>
 
 <nav>
@@ -31,15 +31,15 @@ Ngũ Hổ Phố
 <!-- HERO -->
 <section class="hero">
 
-<img src="image/homeAo.webp" class="hero-img">
+    <img src="image/anchoi1.jpg" class="hero-img">
 
 <div class="hero-text">
 
-<h1>The Westmire</h1>
-<h2>A56 Headset</h2>
+<h1>ĂN CHƠI</h1>
+<h2>PHỐ DỊCH VỌNG</h2>
 
-<button class="btn">Buy Now</button>
-<button class="btn2">Shop All</button>
+<button class="btn">Mua ngay</button>
+<button class="btn2">Thêm vào giỏ</button>
 
 </div>
 
@@ -49,26 +49,38 @@ Ngũ Hổ Phố
 <!-- PRODUCT -->
 <section class="products">
 
-<h2>The Westmire A56 Headset</h2>
+<h2>XI MĂNG PHỐ VOL 3</h2>
 
 <div class="product-grid">
 
 <div class="card">
-<img src="images/p1.jpg">
+<img src="image/ximangpho1.jpg">
 </div>
 
 <div class="card">
-<img src="images/p2.jpg">
+<img src="image/ximangpho2.jpg">
 </div>
 
 <div class="card">
-<img src="images/p3.jpg">
+<img src="image/ximangpho3.jpg">
 </div>
 
 </div>
 
 </section>
 
+<!-- CHẠY -->
+<div class="marquee">
+    <div class="marquee-content left">
+        FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦ FREE SHIPPING ✦ MIKENCO ✦
+    </div>
+</div>
+
+<div class="marquee">
+    <div class="marquee-content right">
+        5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 5% OFF FOR FIRST TIME CUSTOMERS ✦ 
+    </div>
+</div>
 
 
 <!-- CATEGORY -->
