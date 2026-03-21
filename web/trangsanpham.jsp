@@ -119,7 +119,7 @@
     <div class="row g-5">
         <div class="col-md-6">
             <div class="main-img-box">
-                <img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072?q=80&w=1000" id="mainImg" alt="Main Product">
+                <img src="image/xi măng ver 2.jpg" id="mainImg" alt="Main Product">
             </div>
             <div class="d-flex gap-2 mt-3">
                 <img src="image/xi măng ver 2.jpg" class="thumb-img thumb-active" onclick="changeImg(this)">
