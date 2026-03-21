@@ -264,13 +264,13 @@ function toggleSubMenu(id){
     <div class="row mt-3">
 
         <div class="col-md-3 product">
-            <img src="images/áo khoác 1.webp">
+            <img src="image/áo khoác 1.webp">
             <p class="product">Áo</p>
             <p>130.000 VND</p>
         </div>
 
         <div class="col-md-3 product">
-            <img src="images/áo khoác 1.webp">
+            <img src="image/áo khoác 1.webp">
             <p class="product">Áo</p>
             <p>130.000 VND</p>
         </div>

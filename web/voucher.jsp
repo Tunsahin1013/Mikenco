@@ -11,7 +11,7 @@
     <body>
         <header>
             <div class="menu-icon"><i class="fas fa-bars"></i></div>
-            <a href="index.jsp" class="logo" style="text-decoration: none; color: inherit;">Ngũ Phố</a>
+            <a href="home.jsp" class="logo" style="text-decoration: none; color: inherit;">Ngũ Phố</a>
             <div class="header-icons">
                 <a href="search.jsp"><i class="fas fa-search"></i></a>
                 <a href="voucher.jsp"><i class="fas fa-ticket-alt"></i></a>

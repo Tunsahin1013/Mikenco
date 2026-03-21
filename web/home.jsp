@@ -13,16 +13,17 @@
 <!-- HEADER -->
 <header class="header">
 
-    <i class='bx bx-menu'></i>
+<i class='bx bx-menu'></i>
     
 <div class="logo">
 Ngũ Phố
 </div>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">Shop</a>
-<a href="#">Contact</a>
+<a href="#"><i class='bx bx-search-alt'></i></a>
+<a href="voucher.jsp"><i class='bx bxs-discount'></i></a>
+<a href="index.jsp"><i class='bx bx-cart'></i></a>
+<a href="profile.jsp"><i class='bx bxs-user'></i></a>
 </nav>
 
 </header>
