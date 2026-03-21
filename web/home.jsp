@@ -21,7 +21,7 @@ Ngũ Phố
 
 <nav>
 <a href="#">Home</a>
-<a href="#">Shop</a>
+<a href="trangsanpham.jsp">Shop</a>
 <a href="#">Contact</a>
 </nav>
 
