@@ -26,9 +26,7 @@ Ngũ Phố
 <a href="index.jsp"><i class='bx bx-cart'></i></a>
 <a href="profile.jsp"><i class='bx bxs-user'></i></a>
 
-<a href="#">Home</a>
-<a href="trangsanpham.jsp">Shop</a>
-<a href="#">Contact</a>
+
 </nav>
 
 </header>
