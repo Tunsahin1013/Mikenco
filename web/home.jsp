@@ -20,16 +20,15 @@ Ngũ Phố
 </div>
 
 <nav>
-<<<<<<< OURS
+
 <a href="moi.jsp"><i class='bx bx-search-alt'></i></a>
 <a href="voucher.jsp"><i class='bx bxs-discount'></i></a>
 <a href="index.jsp"><i class='bx bx-cart'></i></a>
 <a href="profile.jsp"><i class='bx bxs-user'></i></a>
-=======
+
 <a href="#">Home</a>
 <a href="trangsanpham.jsp">Shop</a>
 <a href="#">Contact</a>
->>>>>>> THEIRS
 </nav>
 
 </header>
