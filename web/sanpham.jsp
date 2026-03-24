@@ -102,22 +102,23 @@
 </head>
 <body>
 
-<header class="navbar-custom">
-    <div class="nav-left">
-        <div class="menu-trigger" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
-        </div>
-    </div>
+<header class="header">
+    <div class="logo">NGŨ PHỐ</div>
     
-    <div class="nav-center">NGŨ PHỐ</div>
+    <nav class="nav-links">
+        <a href="trangchu.jsp">TRANG CHỦ</a>
+        <a href="muahang.jsp">CỬA HÀNG</a>
+        <a href="muahang.jsp">BỘ SƯU TẬP</a>
+        <a href="voucher.jsp">VOUCHER</a>
+    </nav>
 
-    <div class="nav-right">
-        <a href="home.jsp" title="Trang chủ"><i class="fas fa-home"></i></a>
-        <a href="cart.jsp" title="Giỏ hàng">
-            <i class="fas fa-shopping-cart"></i>
-            <span class="cart-badge" id="cartCount">0</span>
-        </a>
-        <a href="profile.jsp" title="Thông tin cá nhân"><i class="fas fa-user-circle"></i></a>
+    <div class="header-icons">
+        <i class='bx bx-search'></i>
+        <div class="cart-box">
+            <a href="giohang.jsp" style="color:white;"><i class='bx bx-cart'></i></a>
+            <span class="cart-count">2</span>
+        </div>
+        <a href="profile.jsp" style="color:white;"><i class='bx bx-user-circle'></i></a>
     </div>
 </header>
 

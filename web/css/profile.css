@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    font-family: Arial;
+}
+
+/* ================= HEADER ================= */
+.header{
+    background:black;
+    padding:15px;
+    position:relative;
+    z-index:1000;
+}
+
+.header i{
+    color:white;
+    margin-left:15px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.header i:hover{
+    color:#ccc;
+}
+
+.menu-icon{
+    font-size:22px;
+    cursor:pointer;
+    color:white;
+}
+
+.name_page{
+    font-size:18px;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar{
+    position:fixed;
+    top:0;
+    left:-250px;
+    width:250px;
+    height:100%;
+    background:#111;
+    padding-top:60px;
+    transition:0.3s;
+    z-index:999;
+}
+
+.sidebar a, .menu-item{
+    display:block;
+    color:white;
+    padding:12px 20px;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.sidebar a:hover, .menu-item:hover{
+    background:#222;
+}
+
+.close-btn{
+    position:absolute;
+    top:10px;
+    right:20px;
+    font-size:25px;
+    cursor:pointer;
+    color:white;
+}
+
+/* ================= SUBMENU ================= */
+.submenu{
+    max-height:0;
+    overflow:hidden;
+    background:#1a1a1a;
+    transition:0.3s;
+}
+
+.submenu.active{
+    max-height:200px;
+}
+
+.submenu a{
+    padding-left:40px;
+    font-size:14px;
+}
+
+/* ================= OVERLAY ================= */
+#overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    display:none;
+    z-index:998;
+}
+
+/* ================= PROFILE ================= */
+.profile-box{
+    background:#eaeaea;
+    color:black;
+    padding:30px;
+}
+
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+}
+
+.avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.name_tag{
+    text-align:center;
+    font-weight:bold;
+}
+
+/* ================= PRODUCT ================= */
+.product{
+    background:black;
+    padding:10px;
+    text-align:center;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+/* KHUNG ẢNH */
+.img-box{
+    position:relative;
+    overflow:hidden;
+    border-radius:10px;
+}
+
+/* ẢNH */
+.img-box img{
+    width:100%;
+    display:block;
+    transition:0.4s;
+}
+
+/* ẢNH 2 (ẩn ban đầu) */
+.img2{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+}
+
+/* HOVER → ĐỔI ẢNH */
+.img-box:hover .img2{
+    opacity:1;
+}
+
+.img-box:hover .img1{
+    opacity:0;
+}
+
+/* ZOOM NHẸ */
+.img-box:hover img{
+    transform:scale(1.05);
+}
+
+/* ================= FOOTER ================= */
+.footer{
+    background:#0a0a0a;
+    color:#fff;
+    padding:60px 20px 20px;
+    margin-top:50px;
+}
+
+.footer-title{
+    font-size:30px;
+    font-weight:500;
+}
+
+.footer-sub{
+    font-size:12px;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.footer p{
+    font-size:13px;
+    color:#ccc;
+    line-height:1.6;
+}
+
+.footer-line{
+    border:0.5px solid #333;
+    margin:20px 0;
+}
+
+.footer-bottom{
+    font-size:12px;
+    color:#aaa;
+}
+
+
+/* ===== EDIT PROFILE UI ===== */
+
+.edit-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#111,#222);
+}
+
+.edit-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:600px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.edit-card label{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.edit-card input{
+    border-radius:8px;
+}
+
+.edit-card input:focus{
+    border-color:#000;
+    box-shadow:none;
+}
+
+/* AVATAR */
+.edit-avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    border:3px solid #ddd;
+}
+
+.edit-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* AVATAR PROFILE */
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+}
+
+.avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* AVATAR EDIT */
+.edit-avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+    border:3px solid #ddd;
+}
+
+.edit-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}

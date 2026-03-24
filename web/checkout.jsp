@@ -9,23 +9,34 @@
 <html>
 <head>
 
-<title>Thanh Toán</title>5
+<title>Thanh Toán</title>
 
 <link rel="stylesheet" href="css/checkout.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="header">
-<div class="logo">Westmire Wired</div>
 
-<div class="icons">
-<span>🔍</span>
-<span>🎫</span>
-<span>🛒</span>
-<span>👤</span>
+    <i class='bx bx-menu'></i>
+    
+<div class="logo">
+Ngũ Phố
 </div>
+
+<nav>
+
+<a href="moi.jsp"><i class='bx bx-search-alt'></i></a>
+<a href="voucher.jsp"><i class='bx bxs-discount'></i></a>
+<a href="index.jsp"><i class='bx bx-cart'></i></a>
+<a href="profile.jsp"><i class='bx bxs-user'></i></a>
+
+
+</nav>
+
 </header>
 
 

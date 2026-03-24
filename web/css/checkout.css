@@ -20,22 +20,42 @@ font-family:Arial;
 margin:0;
 }
 
+/* HEADER */
+
 .header{
 display:flex;
 justify-content:space-between;
-padding:20px;
-background:black;
+align-items: center;
+padding:20px 40px;
+background-color: black;
+color:whitesmoke;
+position: relative;
+}
+
+nav a{
+font-size: 55px;
+margin-left:20px;
+text-decoration:none;
+color:white;
 }
 
 .logo{
-font-weight:bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 45px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.icons span{
+.bx-menu{
+font-size: 55px;
 margin-left:20px;
-font-size:20px;
+text-decoration:none;
+color:white;
 }
-
 
 .container{
 width:80%;
